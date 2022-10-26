@@ -75,6 +75,53 @@ img{
     background: var(--alice-blue);
     padding: 3.2rem 0;
 }
+             .header{
+    position: fixed;
+    top: 10px; left:0; right: 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0.5rem 5%;
+    background:rgb(241, 242, 244);
+    box-shadow: var(--box-shadow);
+}
+
+.header .logo{
+    font-size: 6.0rem;
+    top: 10px; left: 20px; right: 0px;
+    font-weight: bolder;
+    color:var(--black);
+}
+
+
+.header .navbar a{
+    font-size: 1.7rem;
+    margin:1rem;
+    color:var(--black);
+}
+
+.header .navbar a:hover{
+    color:rgb(131, 198, 237);
+}
+
+.header .icons div{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: rgb(131, 198, 237);
+    color:var(--white);
+    font-size: 2rem;
+    margin-left: .3rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.header .icons div:hover{
+    background: var(--orange);
+    color:rgb(131, 198, 237);
+}
 .products {
           background-image: url('https://github.com/Matsya-03161013/matsya/blob/main/FISHERMAN.jpg?raw=true');
           background-repeat: no-repeat;
@@ -292,53 +339,7 @@ img{
         height: 121.5vh;
     }
             }
-            .header{
-    position: fixed;
-    top: 10px; left:0; right: 100px;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding:0.5rem 5%;
-    background:rgb(241, 242, 244);
-    box-shadow: var(--box-shadow);
-}
-
-.header .logo{
-    font-size: 6.0rem;
-    top: 10px; left: 20px; right: 0px;
-    font-weight: bolder;
-    color:var(--black);
-}
-
-
-.header .navbar a{
-    font-size: 1.7rem;
-    margin:1rem;
-    color:var(--black);
-}
-
-.header .navbar a:hover{
-    color:rgb(131, 198, 237);
-}
-
-.header .icons div{
-    height: 4.5rem;
-    width: 4.5rem;
-    line-height: 4.5rem;
-    border-radius: .5rem;
-    background: rgb(131, 198, 237);
-    color:var(--white);
-    font-size: 2rem;
-    margin-left: .3rem;
-    cursor: pointer;
-    text-align: center;
-}
-
-.header .icons div:hover{
-    background: var(--orange);
-    color:rgb(131, 198, 237);
-}
+           
     @media (max-width:768px){
     .header .navbar{
         position: absolute;
